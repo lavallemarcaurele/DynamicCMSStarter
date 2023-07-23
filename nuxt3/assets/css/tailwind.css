@@ -4,6 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-    @apply font-sans font-bold;
+body {
+    @apply font-sans;
+}
+
+h1,
+h2,
+h3 {
+    @apply font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl;
+}
+
+p,
+span {
+    @apply text-lg;
 }

@@ -17,6 +17,11 @@
       "required": true,
       "unique": true
     },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
     "content": {
       "type": "dynamiczone",
       "components": [
