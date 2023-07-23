@@ -14,5 +14,5 @@ export default defineNuxtConfig({
     version: "v4",
     cookie: {},
     cookieName: "strapi_jwt",
-  },
+  }
 });

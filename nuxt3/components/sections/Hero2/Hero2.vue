@@ -1,16 +1,22 @@
 <template>
-  <section class="flex justify-center py-10" :class="{ 'flex-row-reverse': data.position === 'right' }">
-    <div class="flex justify-between max-w-[1200px]">
-      <div>
-        <h1>{{ data.title }}</h1>
-        <p>{{ data.description }}</p>
-        <a :href="data.button.link" class="btn">{{ data.button.label }}</a>
+  <section
+    class="relative flex flex-col justify-center mb-10 px-2 h-full sm:flex-row sm:justify-between sm:items-center max-w-[1200px] mx-auto">
+    <nuxt-img v-if="data.positionHero2 === 'left'" :src="`http://localhost:1337${data.image.data.attributes.url}`" alt=""
+      class="absolute inset-0 w-full h-full object-cover sm:static sm:w-1/2 sm:object-cover sm:h-[700px]" />
+    <div class="relative z-10 p-4 sm:p-0">
+      <div class="bg-white rounded bg-opacity-60 sm:bg-transparent p-4 inline-block">
+        <h1 class="mb-4">{{ data.title }}</h1>
+        <p class="mb-4">{{ data.description }}</p>
+        <div>
+          <a :href="data.button.link" class="btn inline-block px-4">{{ data.button.label }}</a>
+        </div>
       </div>
-      <nuxt-img :src="`http://localhost:1337${data.image.data.attributes.url}`" alt="" class="w-1/2" />
     </div>
+    <nuxt-img v-if="data.positionHero2 === 'right'" :src="`http://localhost:1337${data.image.data.attributes.url}`" alt=""
+      class="absolute inset-0 w-full h-full object-cover sm:static sm:w-1/2 sm:object-cover sm:h-[700px]" />
   </section>
 </template>
-  
+
 <script setup lang="ts">
 defineProps({
   data: Object

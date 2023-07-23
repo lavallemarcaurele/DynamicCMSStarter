@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-center py-10" :class="{ 'flex-row-reverse': data.position === 'right' }">
+  <section class="flex justify-center mb-20" :class="{ 'flex-row-reverse': data.position === 'right' }">
     <div class="flex justify-between max-w-[1200px]">
       <div>
         <h1>{{ data.title }}</h1>

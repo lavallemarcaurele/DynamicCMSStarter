@@ -1,14 +1,8 @@
-export const Hero1Graphql = `
+export const HERO1_GRAPHQL_QUERY = `
   ... on ComponentHeroHero1 {
     title
     description
-    image {
-      data {
-        attributes {
-          url
-        }
-      }
-    }
+    image {data{attributes{url}}}
     button {
       label
       link
