@@ -1,4 +1,3 @@
-import { ref, onMounted } from 'vue'
 import { HERO1_GRAPHQL_QUERY } from '../components/sections/Hero1/Hero1Graphql';
 import { HERO2_GRAPHQL_QUERY } from '../components/sections/Hero2/Hero2Graphql';
 import { HERO3_GRAPHQL_QUERY } from '../components/sections/Hero3/Hero3Graphql';
