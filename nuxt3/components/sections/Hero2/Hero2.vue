@@ -5,8 +5,8 @@
       class="absolute inset-0 w-full h-full object-cover sm:static sm:w-1/2 sm:object-cover sm:h-[700px]" />
     <div class="relative z-10 p-4 sm:p-0">
       <div class="bg-white rounded bg-opacity-60 sm:bg-transparent p-4 inline-block">
-        <h1 class="mb-4">{{ data.title }}</h1>
-        <p class="mb-4">{{ data.description }}</p>
+        <h1>{{ data.title }}</h1>
+        <p>{{ data.description }}</p>
         <div>
           <a :href="data.button.link" class="btn inline-block px-4">{{ data.button.label }}</a>
         </div>

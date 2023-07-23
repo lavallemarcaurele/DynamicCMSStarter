@@ -11,14 +11,14 @@ body {
 h1,
 h2,
 h3 {
-    @apply font-bold leading-tight tracking-tighter text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl;
+    @apply font-bold leading-tight tracking-tighter text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-4;
 }
 
 p,
 span {
-    @apply sm:text-lg md:text-xl max-w-prose;
+    @apply sm:text-lg md:text-xl max-w-prose mb-4;
 }
 
 a.btn {
-    @apply bg-blue-500 text-white py-2 rounded shadow hover:bg-blue-600 transition-colors duration-200;
+    @apply bg-blue-500 text-white py-2 rounded shadow hover:bg-blue-600 transition-colors duration-200 uppercase font-bold;
 }

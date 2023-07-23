@@ -1,18 +1,18 @@
 <template>
-  <section class="flex justify-center mb-20" :class="{ 'flex-row-reverse': data.position === 'right' }">
-    <div class="flex justify-between max-w-[1200px]">
-      <div>
+  <section class="flex justify-center mb-20">
+    <div class="relative flex justify-between max-w-[1200px]">
+      <nuxt-img :src="`http://localhost:1337${data.image.data.attributes.url}`" alt="" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 flex flex-col justify-center items-center">
         <h1>{{ data.title }}</h1>
         <p>{{ data.description }}</p>
-        <a :href="data.button.link" class="btn">{{ data.button.label }}</a>
+        <a :href="data.button.link" class="btn inline-block px-4">{{ data.button.label }}</a>
       </div>
-      <nuxt-img :src="`http://localhost:1337${data.image.data.attributes.url}`" alt="" class="w-1/2" />
     </div>
   </section>
 </template>
-  
+
 <script setup lang="ts">
 defineProps({
   data: Object
-})
+});
 </script>
