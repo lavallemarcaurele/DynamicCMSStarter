@@ -3,10 +3,8 @@
         <component v-for="(componentData, index) in pageData.content" :key="index"
             :is="resolveComponent(componentData.__typename)" :data="componentData" />
     </div>
-    <div v-else>
-    </div>
 </template>
-    
+
 <script setup lang="ts">
 import usePageData from '../utils/pageMixin.ts';
 import { resolveComponent } from '../utils/componentResolver';
