@@ -10,8 +10,8 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import Hero1 from '../components/sections/Hero/Hero1.vue';
-import Hero2 from '../components/sections/Hero/Hero2.vue';
+import Hero1 from '../components/sections/Hero1/Hero1.vue';
+import Hero2 from '../components/sections/Hero2/Hero2.vue';
 
 const route = useRoute()
 const pageData = ref(null)

@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/strapi"],
+  modules: ["@nuxtjs/tailwindcss", '@nuxt/image', 'nuxt-swiper', 'nuxt-icon', '@nuxtjs/device', "@nuxtjs/strapi"],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     configPath: "tailwind.config",
