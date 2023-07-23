@@ -1,6 +1,6 @@
 <template>
   <section
-    class="relative flex flex-col justify-center mb-10 px-2 h-full sm:flex-row sm:justify-between sm:items-center max-w-[1200px] mx-auto">
+    class="relative flex flex-col justify-center mb-10 h-full sm:flex-row sm:items-center max-w-[1200px] mx-auto gap-10">
     <nuxt-img v-if="data.positionHero2 === 'left'" :src="`http://localhost:1337${data.image.data.attributes.url}`" alt=""
       class="absolute inset-0 w-full h-full object-cover sm:static sm:w-1/2 sm:object-cover sm:h-[700px]" />
     <div class="relative z-10 p-4 sm:p-0">
