@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_hero_hero_2s",
+  "info": {
+    "displayName": "Hero 2",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.button",
+      "required": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    }
+  }
+}

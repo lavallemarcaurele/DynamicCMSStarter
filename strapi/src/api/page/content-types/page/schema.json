@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero-1",
+        "hero.hero-2",
+        "hero.hero-3",
+        "hero.hero-4",
+        "hero.hero-5",
+        "hero.hero-6"
+      ]
+    }
+  }
+}

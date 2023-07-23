@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_hero_hero_3s",
+  "info": {
+    "displayName": "Hero 3",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.button"
+    }
+  }
+}

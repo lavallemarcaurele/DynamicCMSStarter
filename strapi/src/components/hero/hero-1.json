@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_hero_hero_1s",
+  "info": {
+    "displayName": "Hero 1",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.button",
+      "required": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_hero_hero_5s",
+  "info": {
+    "displayName": "Hero 5",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.button",
+      "required": false
+    }
+  }
+}
