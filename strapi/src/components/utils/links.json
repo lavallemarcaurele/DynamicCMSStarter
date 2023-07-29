@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_utils_links",
+  "info": {
+    "displayName": "Links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
