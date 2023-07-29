@@ -1,16 +1,12 @@
 <template>
-  <div v-if="pageData && pageData.content">
+  <div v-if="pageData">
     <component v-for="(componentData, index) in pageData.content" :key="index"
       :is="resolveComponent(componentData.__typename)" :data="componentData" />
   </div>
 </template>
 
 <script setup lang="ts">
-import usePageData from '../utils/pageMixin.ts';
-import { resolveComponent } from '../utils/componentResolver';
-
+import usePageData from '../utils/pageMixin';
 const route = useRoute()
 const pageData = usePageData('/' + route.params.slug)
-
-resolveComponent();
 </script>
