@@ -8,7 +8,7 @@
       <div class="bg-white rounded bg-opacity-60 sm:bg-transparent p-4 inline-block">
         <GradientTitle :title="data?.title" :level="1" />
         <p>{{ data?.description }}</p>
-        <GradientButton :link="data?.button.link" :label="data?.button.label" variant="primary" />
+        <GradientButton v-if="data?.button" :link="data?.button.link" :label="data?.button.label" variant="primary" />
       </div>
     </div>
   </section>

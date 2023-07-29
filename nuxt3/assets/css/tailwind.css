@@ -11,7 +11,19 @@ body {
 h1,
 h2,
 h3 {
-    @apply font-bold leading-tight tracking-tighter text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-4;
+    @apply font-bold leading-tight tracking-tighter mb-4;
+}
+
+h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl;
+}
+
+h2 {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl;
+}
+
+h3 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
 }
 
 p {
