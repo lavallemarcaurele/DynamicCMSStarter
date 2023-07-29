@@ -6,7 +6,7 @@
       <a :href="data.button.link" class="btn inline-block px-4">{{ data.button.label }}</a>
     </div>
     <nuxt-img :src="`http://localhost:1337${data.image.data.attributes.url}`" alt=""
-      class="w-[600px] h-full object-cover mt-5" />
+      class="w-[600px] h-full object-cover mt-5 rounded" />
   </section>
 </template>
 
