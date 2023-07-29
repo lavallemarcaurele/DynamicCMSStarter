@@ -2,7 +2,8 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          "pastel-green": "#4DFFC0",
+          "main": "#4DFFC0",
+          "secondary": "#639CFF",
         },
         fontFamily: {
           sans: ["Roboto", "sans-serif"],

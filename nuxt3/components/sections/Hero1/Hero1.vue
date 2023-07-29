@@ -6,11 +6,9 @@
       :class="{ 'order-2': data?.positionHero1 === 'right' }" />
     <div class="relative z-10 p-4 sm:p-0">
       <div class="bg-white rounded bg-opacity-60 sm:bg-transparent p-4 inline-block">
-        <h1>{{ data?.title }}</h1>
+        <GradientTitle :title="data?.title" :level="1" />
         <p>{{ data?.description }}</p>
-        <div>
-          <a :href="data?.button.link" class="btn inline-block px-4">{{ data?.button.label }}</a>
-        </div>
+        <GradientButton :link="data?.button.link" :label="data?.button.label" variant="primary" />
       </div>
     </div>
   </section>

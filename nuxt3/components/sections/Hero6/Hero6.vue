@@ -4,11 +4,11 @@
       class="w-full object-cover sm:h-[500px]" />
     <div class="p-4 sm:p-0">
       <div class="flex flex-col sm:flex-row bg-white rounded bg-opacity-60 sm:bg-transparent p-4 gap-6">
-        <h1 class="w-full sm:w-1/2">{{ data?.title }}</h1>
+        <GradientTitle :title="data?.title" :level="1" />
         <div>
           <p>{{ data?.description }}</p>
           <div>
-            <a :href="data?.button.link" class="btn inline-block px-4">{{ data?.button.label }}</a>
+            <GradientButton :link="data?.button.link" :label="data?.button.label" variant="secondary" />
           </div>
         </div>
       </div>
