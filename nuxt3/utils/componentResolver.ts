@@ -5,6 +5,8 @@ const componentMapping = {
   'ComponentHeroHero2': 'Hero2',
   'ComponentHeroHero3': 'Hero3',
   'ComponentHeroHero4': 'Hero4',
+  'ComponentHeroHero5': 'Hero5',
+  'ComponentHeroHero6': 'Hero6',
 };
 
 export function resolveComponent(name) {

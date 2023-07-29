@@ -2,6 +2,8 @@ import { HERO1_GRAPHQL_QUERY } from '../components/sections/Hero1/Hero1Graphql';
 import { HERO2_GRAPHQL_QUERY } from '../components/sections/Hero2/Hero2Graphql';
 import { HERO3_GRAPHQL_QUERY } from '../components/sections/Hero3/Hero3Graphql';
 import { HERO4_GRAPHQL_QUERY } from '../components/sections/Hero4/Hero4Graphql';
+import { HERO5_GRAPHQL_QUERY } from '../components/sections/Hero5/Hero5Graphql';
+import { HERO6_GRAPHQL_QUERY } from '../components/sections/Hero6/Hero6Graphql';
 
 export default function usePageData(slug) {
   const pageData = ref(null)
@@ -21,6 +23,8 @@ export default function usePageData(slug) {
                     ${HERO2_GRAPHQL_QUERY}
                     ${HERO3_GRAPHQL_QUERY}
                     ${HERO4_GRAPHQL_QUERY}
+                    ${HERO5_GRAPHQL_QUERY}
+                    ${HERO6_GRAPHQL_QUERY}
                   }
                 }
               }
