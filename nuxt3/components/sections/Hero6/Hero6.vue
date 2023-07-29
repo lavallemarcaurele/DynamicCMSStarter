@@ -4,7 +4,7 @@
       class="w-full object-cover sm:h-[500px]" />
     <div class="px-4 sm:px-0">
       <div class="flex flex-col sm:flex-row bg-white rounded bg-opacity-60 sm:bg-transparent sm:p-4 sm:gap-6">
-        <GradientTitle :title="data?.title" :level="1" />
+        <GradientTitle :title="data?.title" :level="1" class="w-full sm:w-1/2"/>
         <div>
           <p>{{ data?.description }}</p>
           <div>

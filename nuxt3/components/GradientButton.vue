@@ -22,7 +22,7 @@
         return 'border-2 border-main bg-transparent text-main';
       case 'primary':
       default:
-        return 'bg-gradient-to-r from-main to-secondary';
+        return 'bg-gradient-to-r from-main to-secondary text-white';
     }
   });
   </script>
