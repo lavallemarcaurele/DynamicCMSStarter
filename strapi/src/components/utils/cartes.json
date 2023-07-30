@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_utils_cartes",
+  "info": {
+    "displayName": "Cartes",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.button",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_slider_slider_de_cartes",
+  "info": {
+    "displayName": "Slider de cartes",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "uptitle": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "Cartes",
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.cartes",
+      "required": true
+    }
+  }
+}
