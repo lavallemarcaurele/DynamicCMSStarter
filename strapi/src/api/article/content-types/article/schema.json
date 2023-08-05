@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero-1",
+        "hero.hero-2",
+        "hero.hero-3",
+        "hero.hero-4",
+        "hero.hero-5",
+        "hero.hero-6",
+        "slider.slider-de-cartes"
+      ],
+      "required": false
+    }
+  }
+}
