@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_composant_avantages",
+  "info": {
+    "displayName": "Avantages",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "advantage": {
+      "displayName": "Avantage",
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.avantage",
+      "required": true
+    }
+  }
+}

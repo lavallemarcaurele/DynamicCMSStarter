@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_utils_avantages",
+  "info": {
+    "displayName": "Avantage"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "heart",
+        "smiley"
+      ],
+      "default": "heart",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

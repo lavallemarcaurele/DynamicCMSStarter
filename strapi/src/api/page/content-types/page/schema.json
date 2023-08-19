@@ -31,7 +31,8 @@
         "hero.hero-4",
         "hero.hero-5",
         "hero.hero-6",
-        "slider.slider-de-cartes"
+        "slider.slider-de-cartes",
+        "composant.avantages"
       ]
     }
   }
