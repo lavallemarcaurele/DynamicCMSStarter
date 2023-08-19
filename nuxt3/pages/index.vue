@@ -8,4 +8,5 @@
 <script setup lang="ts">
 import usePageData from '../utils/pageMixin';
 const pageData = usePageData('/');
+console.log(pageData)
 </script>

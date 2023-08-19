@@ -47,8 +47,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
-
 const logoUrl = ref('');
 const links = ref([]);
 const graphql = useStrapiGraphQL();

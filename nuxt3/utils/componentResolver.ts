@@ -8,6 +8,7 @@ const componentMapping = {
   'ComponentHeroHero5': 'Hero5',
   'ComponentHeroHero6': 'Hero6',
   'ComponentSliderSliderDeCartes': 'SliderCards',
+  'ComponentComposantAvantages': 'Advantages',
 };
 
 export function resolveComponent(name) {

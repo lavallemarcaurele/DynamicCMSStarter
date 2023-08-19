@@ -5,3 +5,4 @@ export { default as Hero4 } from '../components/sections/Hero4/Hero4.vue';
 export { default as Hero5 } from '../components/sections/Hero5/Hero5.vue';
 export { default as Hero6 } from '../components/sections/Hero6/Hero6.vue';
 export { default as SliderCards } from '../components/sections/SliderCards/SliderCards.vue';
+export { default as Advantages } from '../components/sections/Advantages/Advantages.vue';
