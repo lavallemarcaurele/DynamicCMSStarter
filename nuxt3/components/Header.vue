@@ -20,7 +20,7 @@
                         <div class="flex flex-shrink-0 items-center">
                             <NuxtLink to="/"><nuxt-img v-if="logoUrl" :src="logoUrl" alt="Logo" class="h-10" /></NuxtLink>
                         </div>
-                        <div class="hidden sm:ml-6 sm:block">
+                        <div class="hidden sm:ml-6 sm:flex items-center">
                             <ul class="flex space-x-4">
                                 <li v-for="link in links" :key="link.id">
                                     <NuxtLink :to="link.link"
