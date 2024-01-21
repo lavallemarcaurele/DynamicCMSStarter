@@ -14,11 +14,12 @@
     "@nuxtjs/strapi": "^1.9.3",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.0",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.9.3"
   },
   "dependencies": {
     "@nuxtjs/device": "^3.1.0",
     "nuxt-icons": "^0.4.2",
-    "nuxt-swiper": "^1.2.0"
+    "nuxt-swiper": "^1.2.0",
+    "postcss-custom-properties": "^13.3.4"
   }
 }
